@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavBarInscripcion />
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBarInscripcion from './modules/inscripción/components/NavBarInscripcion.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavBarInscripcion
   }
 }
 </script>
@@ -24,3 +25,6 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
+
